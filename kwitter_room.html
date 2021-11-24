@@ -11,9 +11,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -21,12 +23,13 @@
 <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
 	<center>
 		<h1 class="header">	
-			Kwitter	
+			Lets Chat
 			<sup>
 				<img src="m2.png">
 			</sup>
 		</h1>
-		<h3 id="user_name" class="color_white"></h3>
+		<h3 id="username" class="color_white btn btn-primary" style="font-family: 'Montserrat', sans-serif;"></h3>
+		<br><br>
 		<div class="form-group input_div_room_page">
 			<label>#Add Room:</label>
 			<input type="text" id="room_name" class="form-control" placeholder="#Room Name">
